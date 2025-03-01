@@ -1,0 +1,11 @@
+CREATE DATABASE IF NOT EXISTS flaskdb;
+USE flaskdb;
+
+CREATE TABLE IF NOT EXISTS users (
+    ALTER TABLE users DROP COLUMN id;
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(255) NOT NULL,
+    last_name VARCHAR(255) NOT NULL,
+    barangay VARCHAR(255) NOT NULL,
+    precinct_number VARCHAR(50) NOT NULL
+);
