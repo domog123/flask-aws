@@ -9,7 +9,7 @@ Port 22 for SSH
 
 Install docker, mysql, and github in the instance
 
-git clone https://github.com/jgdomogi/flask-aws.git
+git clone https://github.com/domog123/flask-aws.git
 cd flask-aws
 
 run the docker 
